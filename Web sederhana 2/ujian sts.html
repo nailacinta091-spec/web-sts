@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sushiku</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark main-color">
+    <div class="container-fluid">
+        <a class="navbar-brand me-auto" href="#">sushiku</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Promo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="bi bi-cart"></i> Keranjang
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Banner -->
+<div class="container-fluid banner d-flex align-items-center">
+    <div class="container text-center">
+        <h1 class="text-light">welcome in my resto</h1>
+        <p class="text-light mb-4">temukan kegembiraan di sushi</p>
+        <!-- Input Group -->
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="input-group input-group-lg">
+                    <select class="form-control" id="inputGroupSelect04">
+                        <option selected>pilih sushi</option>
+                        <option value="1">california roll</option>
+                        <option value="2">dragon roll</option>
+                        <option value="3">tuna sasimi</option>
+                    </select>
+                    <button class="btn btn-outline-warning text-light" type="button">
+                        Search
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Promo-->
+<div class="container-fluid py-5">
+    <div class="container">
+        <h2 class="text-center mb-4" style="color: white;">SPECIAL PRICE!!!</h2>
+        <div class="row justify-content-center">
+            <!-- Card 1 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="california roll.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            CALIFORNIA ROLL
+                        </h5>
+                        <p class="card-text">
+                            sushi dengan isian daging kepiting, alpukat, dan mentimun dibungkus dengan nasi dan nori.
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- PROMO 2 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="tuna sasimi.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            TUNA SASIMI
+                        </h5>
+                        <p class="card-text">
+                            tuna segar yang diiris tipis dan disajikan mentah tanpa nasi dan kecap asin.
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- PROMO 3 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="dragon roll.jpg" class="card-img-top" >
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            DRAGON ROLL
+                        </h5>
+                        <p class="card-text">
+                        sushi dengan isian udang tempura dan mentimun, diatasnya terdapat irisan alpukat yang disusun rapi.
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Section Pelayanan-->
+<div class="container-fluid py-5 pelayanan">
+    <div class="container">
+        <h2 class="text-center text-light mb-5">Kami Melayani Pembayaran</h2>
+
+        <div class="row justify-content-center text-center text-light">
+
+            <!-- Delivery -->
+            <div class="col-sm-6 col-lg-3 mb-4 pelayanan-content">
+                <div class="d-flex justify-content-center mb-3">
+                    <div class="icon-circle rounded-circle d-flex align-items-center justify-content-center border border-light border-2">
+                         <i class="bi bi-bicycle fs-3 text-light"></i>
+                    </div>
+                </div>
+                <h5 class="text-light">Cash</h5>
+                <p class="text-light">Cash memberi fleksibilitas, kami pastikan transaksi berjalan lancar.</p>
+            </div>
+
+            <!-- Take Away -->
+            <div class="col-sm-6 col-lg-3 mb-4 pelayanan-content">
+                <div class="d-flex justify-content-center mb-3">
+                    <div class="icon-circle rounded-circle d-flex align-items-center justify-content-center border border-light border-2">
+                        <i class="bi bi-cart3"></i>
+                    </div>
+                </div>
+                <h5 class="text-light">Qris</h5>
+                <p class="text-light">Bayar tanpa repot, cukup gunakan QRIS di sini.</p>
+            </div>
+
+            <!-- Dine In -->
+            <div class="col-sm-6 col-lg-3 mb-4 pelayanan-content">
+                <div class="d-flex justify-content-center mb-3">
+                    <div class="icon-circle rounded-circle d-flex align-items-center justify-content-center border border-light border-2">
+                        <i class="bi bi-cup-straw fs-3 text-light"></i>
+                    </div>
+                </div>
+                <h5 class="text-light">Debit</h5>
+                <p class="text-light">Bayar lebih praktis, cukup gesek kartu debit Anda.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Section Product -->
+
+<div class="container-fluid py-5 menu-favorit best">
+    <div class="container">
+        <h2 class="text-center mb-5" style="color: white;">BEST SELLER</h2>
+
+        <div class="row justify-content-center">
+
+            <!-- Card 1 -->
+            <div class="col-sm-6 col-lg-3 mb-4 menu-favorit-content">
+                <div class="card border-0 shadow-sm">
+                    <img src="california roll.jpg" class="card-img-top" alt="Sport Sandal" style="height: 210px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold" style="color: #0a0a0a;">California Roll</h5>
+                        <p class="card-text text-muted small">salah satu jenis sushi fusion (gabungan) terpopuler di dunia yang berasal dari Amerika Serikat pada tahun 1960-an, 
+                            diciptakan oleh koki Jepang untuk mengenalkan sushi kepada lidah Barat. </p>
+                        <p class="fw-bold" style="color: #FFC107;">Rp 40.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-sm-6 col-lg-3 mb-4 menu-favorit-content">
+                <div class="card border-0 shadow-sm">
+                    <img src="dragon roll.jpg" class="card-img-top" alt="Casual Black Sandal" style="height: 210px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold" style="color: #0a0a0a;">Dragon Roll</h5>
+                        <p class="card-text text-muted small">jenis maki sushi popular barat yang didesain menyerupai naga, menampilkan topping alpukat tipis sebagai 
+                            "sisik" dan seringkali diisi udang tempura renyah, unagi, dan timun.</p>
+                        <p class="fw-bold" style="color: #FFC107;">Rp 55.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-sm-6 col-lg-3 mb-4 menu-favorit-content">
+                <div class="card border-0 shadow-sm">
+                    <img src="tuna sasimi.jpg" class="card-img-top" alt="Brown Modern Sanda" style="height: 210px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold" style="color: #0a0a0a;">Tuna Sasimi</h5>
+                        <p class="card-text text-muted small">hidangan Jepang berupa irisan tipis daging ikan tuna mentah berkualitas tinggi (sushi grade), yang dikenal dengan tekstur padat, 
+                            rasa gurih-sedikit asin, dan kaya protein, disajikan dengan soyu.</p>
+                        <p class="fw-bold" style="color: #FFC107;">Rp 35.0000</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-sm-6 col-lg-3 mb-4 menu-favorit-content">
+                <div class="card border-0 shadow-sm">
+                    <img src="salmon nigiri.jpg" class="card-img-top" alt="Tofu Rice" style="height: 210px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold" style="color: #0a0a0a;">Salmon Nigiri</h5>
+                        <p class="card-text text-muted small">jenis sushi klasik Jepang yang terdiri dari potongan ikan salmon mentah segar (atau aburi / dipanggang sebentar)
+                             yang diletakkan di atas kepalan tangan nasi sushi berbumbu cuka. </p>
+                        <p class="fw-bold" style="color: #FFC107;">Rp 22.000</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Tombol -->
+        <div class="text-center mt-3">
+            <button class="btn btn-warning btn-lg text-light px-4">Lihat Lainnya</button>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid py-5 testimony">
+    <div class="container">
+        <h2 class="text-center text-light mb-2">Testimoni</h2>
+        <p class="text-center mb-5" style="color: rgba(107, 7, 7, 0.6); font-size: 0.95rem;">Kepuasan pelanggan adalah prioritas kami</p>
+
+        <div class="row g-4">
+
+            
+            <div class="col-sm-6 col-lg-4">
+                <div class="testimony-card">
+                    <div class="quote-icon">"</div>
+                    <h5>Makanan</h5>
+                    <div class="author">— electra</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>Makan sushi disini sangat recomend, selain harganya yang terjangkau cita rasa makanannya sangat khas.</p>
+                </div>
+            </div>
+
+            
+            <div class="col-sm-6 col-lg-4">
+                <div class="testimony-card">
+                    <div class="quote-icon">"</div>
+                    <h5>Adminya gercep</h5>
+                    <div class="author">— kimberly</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    </div>
+                    <p>Pelayanannya sangat bagus, jangan takut diabaikan jika makan di sini, semua kebutuhan sushimu akan terpenuhi.</p>
+                </div>
+            </div>
+
+            
+            <div class="col-sm-6 col-lg-4">
+                <div class="testimony-card">
+                    <div class="quote-icon">"</div>
+                    <h5>Tempat Makan</h5>
+                    <div class="author">— aqeela</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                    </div>
+                    <p>tempat yang nyaman dengan nuansa jepang membuat kita lebih beta makan di sini.</p>
+                </div>
+            </div>
+
+            
+            <div class="col-sm-6 col-lg-4">
+                <div class="testimony-card">
+                    <div class="quote-icon">"</div>
+                    <h5>Kasir</h5>
+                    <div class="author">— flafio</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>Pelayanannya kasir sangat ramah dan profesional dalam melayani proses pembayaran.</p>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="testimony-card">
+                    <div class="quote-icon">"</div>
+                    <h5>Delivery</h5>
+                    <div class="author">— Serly</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    </div>
+                    <p>Layanan delivery sangat cepat dan tepat waktu. dijamin ga kapok pesan di resto ini. </p>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="testimony-card">
+                    <div class="quote-icon">"</div>
+                    <h5>Take Away</h5>
+                    <div class="author">— Fajar adi</div>
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>Layanan take away sangat praktis dan cepat pesanan dikemas dengan rapi sehingga tetap higienis dan aman saat dibawa pulang.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Reservasi-->
+<div class="container-fluid py-5">
+    <div class="container">
+        <h2 class="text-center mb-2" style="color: white;">Reservasi</h2>
+        <p class="text-center text-muted mb-5">Jangan sampai kehabisan tempat!!!</p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+
+                <div class="mb-3">
+                    <label class="form-label" style="color: whitesmoke;">Nama</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" style="color: white;">No. Kontak</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" style="color: white;">Meja</label>
+                    <input type="text" class="form-control">
+                </div>
+                        
+
+                <div class="d-grid">
+                    <button class="btn btn-warning text-light">Reservasi</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- SECTION FOOTER -->
+<div class="container-fluid py-5 footer">
+    <div class="container">
+
+       
+        <h5 class="text-center text-light mb-3">Temui Kami</h5>
+
+        <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+            <a href="https://facebook.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://instagram.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://twitter.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+                <i class="bi bi-youtube"></i>
+            </a>
+        </div>
+
+        <!-- Subscribe -->
+        <h5 class="text-center text-light mb-1">Subscribe</h5>
+        <p class="text-center text-muted mb-3">untuk informasi tentang promo</p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <input type="email" class="form-control" placeholder="Ketikkan Email">
+                    <button class="btn btn-warning text-light">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<footer class=" text-light py-4">
+    <div class="container">
+
+        <div class="row text-center text-md-start">
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h5 class="fw-bold">Restoran Saya</h5>
+                <p class="text-muted small"> nyaman, dan harga terjangkau 
+                    <br>
+                untuk semua kalangan.</p>
+            </div>
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h6 class="fw-bold mb-3">Navigasi</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-muted text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-muted text-decoration-none">Produk</a></li>
+                    <li><a href="#" class="text-muted text-decoration-none">Promo</a></li>
+                    <li><a href="#" class="text-muted text-decoration-none">Reservasi</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-md-4">
+                <h6 class="fw-bold mb-3">Kontak</h6>
+                <ul class="list-unstyled text-muted small">
+                    <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Jl. Sakura No. 10, Mojokerto</li>
+                    <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 765 9012 4531</li>
+                    <li><i class="bi bi-envelope-fill me-2"></i>Sushiku@email.com</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="border-secondary mt-4 mb-3">
+        <p class="text-center text-muted small mb-0">
+            &copy; 2026 Restoran saya. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

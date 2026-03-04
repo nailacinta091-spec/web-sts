@@ -1,0 +1,160 @@
+.main-color {
+    background-color: rgb(65, 1, 1);
+}
+.pelayanan {
+    background-color: rgba(66, 13, 13, 0.55);
+}
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    background-color: rgba(65, 1, 1);
+}
+
+h4 { 
+    text-align: center;
+}
+.col-md-3 {
+    height: auto;
+    object-fit: cover;
+}
+.container {
+    text-align: center;
+}
+
+.pelayanan .icon-circle {
+    width: 90px;
+    height: 90px;
+    border: solid 2px;
+}
+
+.menu-favorit {
+    background-color: rgb(65, 1, 1);
+}
+
+.menu-favorit-content {
+    transition: .3s;
+}
+
+.menu-favorit-content:hover {
+    transform: scale(1.1);
+}
+
+.menu-favorit {
+    background-color: rgb(138, 176, 214);
+}
+
+.menu-favorit-content {
+    transition: .3s;
+}
+
+.menu-favorit-content:hover {
+    transform: scale(1.1);
+}
+
+/* menu favorit */
+
+.best {
+    background-color: rgba(121, 123, 187, 0.55);
+}
+
+
+.menu-favorit {
+    background-color: rgb(53, 6, 6);
+}
+
+.menu-favorit-content {
+    transition: .3s;
+}
+
+.menu-favorit-content:hover {
+    transform: scale(1.1);
+}
+
+
+/* testimony */
+.testimony {
+    background-color: rgba(66, 13, 13, 0.55);
+}
+
+.testimony-card {
+    background: rgba(255, 255, 255, 0.07) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 16px;
+    padding: 28px;
+    transition: .3s;
+    height: 100%;
+}
+
+.testimony-card:hover {
+    transform: translateY(-6px);
+    background: rgba(255, 255, 255, 0.13);
+    border-color: rgba(130, 196, 155, 0.3);
+}
+
+.testimony-card .quote-icon {
+    font-size: 2rem;
+    color: rgba(124, 213, 186, 0.3);
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.testimony-card h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #c2a1a1;
+    margin-bottom: 4px;
+}
+
+.testimony-card .author {
+    font-size: 0.8rem;
+    color: rgba(170, 132, 132, 0.55);
+    margin-bottom: 12px;
+}
+
+.testimony-card p {
+    font-size: 0.88rem;
+    color: rgba(225, 173, 173, 0.8);
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.testimony-card .stars {
+    color: #FFC107;
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+}
+
+/* subscribe */
+
+.subscribe-content {
+    background-color: rgba(66, 13, 13, 0.55);
+}
+/* produk banner */
+
+
+
+footer {
+    background-color: rgba(255, 255, 255, 0.55);
+}
+
+.footer {
+    background-color: rgba(66, 13, 13, 0.55);
+}
+
+.footer .social-icon {
+    font-size: 1.6rem;
+    color: #fff;
+    transition: .3s;
+}
+
+.footer .social-icon:hover {
+    color: #FFC107;
+}
+.fw-bold {
+    color: black;
+}

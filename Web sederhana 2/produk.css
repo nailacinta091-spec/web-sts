@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(32, 29, 29);
+}
+
+
+.banner{
+    height: 80vh;
+    background: url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-txt{
+    color: #ffffff;
+}
+
+.product-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.promo-img{
+    height: 275px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
+
+.pelayanan{
+    background-color: aqua;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+/* promo */
+
+.hovered-card {
+    transition: .3s;
+}
+
+.hovered-card:hover {
+    transform: scale(1.005);
+}
+
+.card-promo {
+    transition: .3s;
+    margin-bottom: 20px;
+}
+
+.card-promo:hover {
+    transform: scale(1.1);
+}
+
+/* pelayanan */
+
+.pelayanan {
+    background-color: #909639;
+}
+
+.pelayanan-content {
+    transition: .3s;
+}
+
+.pelayanan-content:hover {
+    transform: scale(1.1);
+}
+
+.pelayanan .icon-circle {
+    width: 90px;
+    height: 90px;
+    border: solid 2px;
+}
+
+.pelayanan p{
+    text-align: left;
+}
+
+/* menu favorit */
+
+.menu-favorit {
+    background-color: rgba(243, 243, 243);
+}
+
+.menu-favorit-content {
+    transition: .3s;
+}
+
+.menu-favorit-content:hover {
+    transform: scale(1.1);
+}
+
+
+/* testimony */
+.testimony {
+    background-color: rgb(106, 114, 50) !important;
+}
+
+.testimony-card {
+    background: rgba(0, 0, 0, 0.07) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 6px;
+    padding: 28px;
+    transition: .3s;
+    height: 100%;
+}
+
+.testimony-card:hover {
+    transform: translateY(-6px);
+    background: rgba(255, 255, 255, 0.13);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.testimony-card .quote-icon {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.3);
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.testimony-card h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.testimony-card .author {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 12px;
+}
+
+.testimony-card p {
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.testimony-card .stars {
+    color: #FFC107;
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+}
+
+
+
+
+/* subscribe */
+
+.subscribe-content {
+    background-color: #ffffff;
+}
+
+/* produk banner */
+.produk-banner {
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.footer {
+    background-color: #ffffff;
+}
+
+.footer .social-icon {
+    font-size: 1.6rem;
+    transition: .3s;
+    color: black;
+}
+
+.footer .social-icon:hover {
+    color: #228700;
+}
+
+footer{
+    background-color: #000000;
+}
+
+footer .text-muted {
+    color: #fff !important;
+}
